@@ -16,3 +16,33 @@ body{
     font-size: 50px;
     
 }
+
+.botao {
+    background-color: rgb(33, 40, 139);
+    color: rgb(43, 255, 0);
+    font-family: "Caveat";
+    background-color: var(--botao-inativo);
+    display: flex;
+    color: var(--texto1);
+    justify-content: center;
+    padding: 1em;
+    font-size: 60px;
+    align-items: center;
+    width:100%;
+}
+
+.Conteudoprincipal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.tituloprincipal {
+    text-align: left;
+    width: 100%;
+    font-size: 45px;
+}
