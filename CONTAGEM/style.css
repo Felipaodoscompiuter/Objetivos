@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root {
     --cor-de-fundo:#333333;
@@ -10,9 +10,11 @@
 }
 
 body{
-    background-color: var(--cor-de-fundo) ;
+    background-image: url(img/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     color:var(--texto1);
-    font-family:"Caveat";
+    font-family:"Bebas Neue";
     font-size: 50px;
     
 }
@@ -20,7 +22,7 @@ body{
 .botao {
     background-color: rgb(33, 40, 139);
     color: rgb(43, 255, 0);
-    font-family: "Caveat";
+    font-family: "Bebas Neue";
     background-color: var(--botao-inativo);
     display: flex;
     color: var(--texto1);
@@ -39,14 +41,12 @@ body{
     max-width: 100%;
     margin: 0 auto;
     height: 100vh;
-    background-image: url(img/Bomba.webp);
-    background-repeat: no-repeat;
 }
 
 .tituloprincipal {
     text-align: left;
     width: 100%;
-    font-size: 45px;
+    font-size: 70px;
 }
 
 .botoes {
