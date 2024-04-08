@@ -2,11 +2,11 @@
 
 :root {
     --cor-de-fundo:#333333;
-    --texto1:#ff0000;
+    --texto1:#15ff00;
     --texto2:#ffffff;
     --botao-ativo:#6b6794;
     --botao-inativo:rgba(23, 18, 85, 0.5);
-    --texo-fundo:rgba(58,55,94,0.3);
+    --texo-fundo:rgba(25, 2, 129, 0.5);
 }
 
 body{
@@ -63,4 +63,11 @@ body{
 .ativo {
     background:var(--botao-ativo);
     border-bottom: 7px solid rgb(251, 226, 0);
+}
+
+.aba-textos {
+    background-color: var(--texo-fundo) ;
+    border-radius:0 0 40px 40px;
+    padding: 80px;
+
 }
