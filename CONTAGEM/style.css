@@ -3,7 +3,7 @@
 :root {
     --cor-de-fundo:#333333;
     --texto1:#15ff00;
-    --texto2:#ffffff;
+    --texto2: rgb(251, 226, 0);
     --botao-ativo:#6b6794;
     --botao-inativo:rgba(23, 18, 85, 0.5);
     --texo-fundo:rgba(25, 2, 129, 0.5);
@@ -60,9 +60,10 @@ body{
     border-radius:0 40px 0 0;
 }
 
-.ativo {
+.botao.ativo {
     background:var(--botao-ativo);
     border-bottom: 7px solid rgb(251, 226, 0);
+
 }
 
 .aba-textos {
@@ -71,3 +72,24 @@ body{
     padding: 80px;
 
 }
+
+.aba-conteudo.ativo {
+    display:block;
+
+}
+
+.aba-conteudo {
+    display: none;
+}
+
+.aba-coneudo-titulo-principal {
+    font-size: 70px;
+    text-align: left;
+}
+
+.aba-coneudo-titulo-secundario {
+    color: var(--texto2);
+    text-transform: uppercase;
+    width: 80vw;
+}
+
