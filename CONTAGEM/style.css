@@ -12,7 +12,7 @@
 body{
     background-image: url(img/maxresdefault.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 150%;
     color:var(--texto1);
     font-family:"Bebas Neue";
     font-size: 50px;
@@ -91,6 +91,12 @@ body{
     color: var(--texto2);
     text-transform: uppercase;
     width: 80vw;
+}
+
+.contador {
+    font-size: 50px;
+    text-align: center;
+    padding: 1em;
 }
 
 .contador {

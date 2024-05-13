@@ -22,12 +22,6 @@ for(let i=0;i <botoes.length;i++){
     }
 }
 
-contadores[0].textContent = calculaTempo(tempoObejetivo1);
-contadores[1].textContent = calculaTempo(tempoObejetivo2);
-contadores[2].textContent = calculaTempo(tempoObejetivo3);
-contadores[3].textContent = calculaTempo(tempoObejetivo4);
-
-
 function calculaTempo(tempoObejetivo) {
     let tempoAtual= new Date();
     let tempoFinal= tempoObejetivo-tempoAtual;
@@ -43,4 +37,18 @@ function calculaTempo(tempoObejetivo) {
     return anos+"anos"+dias+"dias"+horas+"horas"+minutos+"minutos"+segundos+"segundos";
 }
 
+comecaCronometro();
+
+function comecaCronometro(){
+    atualizaCronometro();
+    setInterval(atualizaCronometro,1000);
+}
+     
+function atualizaCronometro(){
+    contadores[0].textContent = calculaTempo(tempoObejetivo1);
+    contadores[1].textContent = calculaTempo(tempoObejetivo2);
+    contadores[2].textContent = calculaTempo(tempoObejetivo3);
+    contadores[3].textContent = calculaTempo(tempoObejetivo4);
+    
+}
 
